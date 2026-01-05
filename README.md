@@ -1,4 +1,4 @@
-1) House Price Prediction with Linear Regression
+# 1) House Price Prediction with Linear Regression
 ## Dataset
 - Source: https://www.kaggle.com/datasets/harishkumardatalab/housing-price-prediction
 - Rows: 545
