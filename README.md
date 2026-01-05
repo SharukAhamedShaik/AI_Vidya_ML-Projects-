@@ -18,7 +18,8 @@
 7. Generated predictions on the test data.
 8. Evaluated the model using R² score and Mean Absolute Error(MAE).
 9. Interpreted the results and discussed model performance.
-#2) Advanced Model: XGBoost Regression
+
+2) Advanced Model: XGBoost Regression
 - Added an **XGBoost Regressor** using the same features and train–test split as Linear Regression.
 - Used parameters like `n_estimators=200`, `learning_rate=0.3`, `max_depth=3`, `subsample=0.8`, `colsample_bytree=0.8`.
 ## Model Performance Comparison
