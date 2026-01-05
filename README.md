@@ -1,4 +1,4 @@
-# House Price Prediction with Linear Regression
+1) House Price Prediction with Linear Regression
 ## Dataset
 - Source: https://www.kaggle.com/datasets/harishkumardatalab/housing-price-prediction
 - Rows: 545
@@ -18,8 +18,14 @@
 7. Generated predictions on the test data.
 8. Evaluated the model using R² score and Mean Absolute Error(MAE).
 9. Interpreted the results and discussed model performance.
-## How to Run
-1. Clone this repository:
-   bash
-   git clone https://github.com/your-username/house-price-linear-regression.git
-
+#2) Advanced Model: XGBoost Regression
+- Added an **XGBoost Regressor** using the same features and train–test split as Linear Regression.
+- Used parameters like `n_estimators=200`, `learning_rate=0.3`, `max_depth=3`, `subsample=0.8`, `colsample_bytree=0.8`.
+## Model Performance Comparison
+- Difference in R² (XGBoost − Linear): **-0.06** → XGBoost has **lower R²**.
+- Difference in MAE (Linear − XGBoost): **-90,284.221** → XGBoost has **higher error**.
+- **Linear Regression performed better** overall on this dataset.
+## Key Insights
+- The **simpler Linear Regression** model worked better than the more complex XGBoost model.
+- On this small, structured dataset, XGBoost likely **overfit** and did not generalize as well.
+- Linear Regression is **faster, easier to interpret**, and in this case also **more accurate**, so it is the preferred model for this project.
